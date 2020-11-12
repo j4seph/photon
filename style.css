@@ -34,6 +34,12 @@ header {
 	color: white;
 }
 
+@media only screen and (max-width: 800px) {
+	.app-description {
+		width: 90%;
+	}
+}
+
 .search-form {
 	padding: 2rem;
 	display: flex;
